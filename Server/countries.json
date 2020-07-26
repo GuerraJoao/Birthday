@@ -1,0 +1,17 @@
+[
+  {
+    "name" : "Portugal",
+    "language" : "Portuguese",
+    "capital" : "Lisbon"
+  },
+  {
+    "name" : "Spain",
+    "language" : "Spanish",
+    "capital" : "Madrid"
+  },
+  {
+    "name" : "France",
+    "language" : "French",
+    "capital" : "Paris"
+  }
+]
