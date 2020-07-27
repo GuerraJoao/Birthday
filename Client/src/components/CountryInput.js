@@ -4,11 +4,10 @@ const Dropdown = ({label, options, changeValue, prop, isError}) => {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState('Choose a Country')
 
+  if(!options){
+    options = [];
+  }
   const renderedOptions = options.map((option) => {
-    //if (option.value === selected.value) {
-    //  return null;
-    //}
-
     return (
       <div
         key={option}
